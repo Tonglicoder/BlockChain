@@ -132,7 +132,7 @@ public class BlockChain_Transactions {
 
 
                 // 用户输入需要租用的冲浪板数目
-                System.out.println("Welcome " + NewAccount_Name + "\n" + "Please type in your number of ordering:");
+                System.out.println("Welcome " + NewAccount_Name + "\n" + "How much surfboards do you want to rent?");
                 Scanner New_Order = new Scanner(System.in);
                 Number_of_New_Order = New_Order.nextLine();
                 quantity = Integer.parseInt(Number_of_New_Order);
